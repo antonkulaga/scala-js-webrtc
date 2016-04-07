@@ -15,7 +15,7 @@ lazy val demo = (project in file("demo"))
 
 lazy val demoSettings = Seq(
   name := s"webrtc-demo",
-  scalaVersion := "2.11.6",
+  scalaVersion := "2.11.8",
   libraryDependencies ++= Seq(
     "org.scala-js" %%% "scalajs-dom" % "0.9.0"
   )
@@ -29,9 +29,9 @@ version := "0.1-SNAPSHOT"
 
 organization := "io.surfkit"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.8"
 
-crossScalaVersions := Seq("2.10.4", "2.11.5")
+crossScalaVersions := Seq("2.10.6", "2.11.8")
 
 libraryDependencies ++= Seq(
   "org.scala-js" %%% "scalajs-dom" % "0.9.0"
